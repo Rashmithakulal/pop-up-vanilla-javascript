@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>pop up vanilla javascript</title>
+</head>
+<body>
+    <div class="container" id="blur">
+
+        <div class="content">
+            <h2>dbgtt hjny rgt fgfjhusfguterfefgv gbgywerywb gffdtrwhrg dfwtrhdbnf gdgf</h2>
+            <img src="../project/image.jpg">
+            <a href="#" onclick="toggle()">Read More</a>
+        </div>
+    </div>
+    <div  id="popup">
+        <h2>bgttdrhfgyedg hgdeytsdhswg vdys</h2>
+        <p>rddhy gdshdts dsfw hfdyw rfwuetr rh3ir fr3efegf bdbwgrfv dgwdw frswsgqguwrdvgcd dgrsgwshsvdx dgrwhsjwidobxdsszc dgdhhxv sfdssc  sggdgd fwdb dvsgdbv dvgasvdbv  sv vsgvdgg</p>
+        <a href="#" onclick="toggle()">Read More</a>
+    </div>
+    <script type="text/javascript">
+        function toggle()
+        {
+            var blur = document.getElementById('blur');
+            blur.classList.toggle('active')
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active')
+        }
+    </script>
+    
+</body>
+</html>
